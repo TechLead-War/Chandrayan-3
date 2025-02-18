@@ -4,6 +4,7 @@ from .terrain import Terrain
 from .lander import Lander
 from .drawables import Drawables
 
+
 def main():
     pygame.init()
     screen = pygame.display.set_mode((WIDTH,HEIGHT))
